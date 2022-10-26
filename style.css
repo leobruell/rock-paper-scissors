@@ -1,9 +1,3 @@
-body{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(172, 116, 225);
-
-}
 .top{
     display: flex;
     flex-direction: column;
