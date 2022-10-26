@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(172, 116, 225);
+
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(117, 208, 117);
+    height: 25vh;
+}
+
+.my-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 30vh;
+}
+
+.my-buttons button{
+    background-color: rgb(93, 93, 192);
+    font-size: 24px;
+    margin: 40px;
+    border-radius: 15px;
+    padding: 25px;
+    width: 200px;
+    flex-shrink: 1;
+}
+
+.my-results{
+    background-color: rgb(111, 152, 152);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+}
+
+.score{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.score p{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.score p span{
+    background-color: rgb(193, 142, 47);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bottom{
+    background-color: rgb(218, 225, 178);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+}

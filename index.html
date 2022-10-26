@@ -5,9 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="rps.js" defer></script> 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script type="text/javascript" src="rps.js"></script>
-    test test test 
+    <div class="top">
+        <h1>Play Rock Paper Scissors!</h1>
+        <p>Rules: In this game, you play rock-paper-scissors against the computer. You select your choice of rock, paper or scissors by clicking on the appropriate button. The winner is the first player to get to five wins.</p>
+    </div>
+
+    <div class="my-buttons">
+        <button type="button" class="rock">Rock</button>
+        <button type="button" class="paper">Paper</button>
+        <button type="button" class="scissors">Scissors</button>
+    </div>
+   
+    <div class='my-results'>
+        <h2>Result:</h2>
+        <div class="results">
+            <p>. . . . . . . . . . . .</p>
+        </div>
+        <div class="score">
+            <p>Wins: <span class="wins">0</span></p>
+
+            <p>Ties: <span class="ties">0</span></p>
+
+            <p>Losses: <span class="losses">0</span></p>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <p>Click <a href="index.html">here</a> to play again!
+        </p>
+    </div>
+    
 </body>
 </html>
